@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Demo {
 	public static void main(String[] args) {
-		System.out.println("New conteiner is created");
+		System.out.println("New conteiner is created ==>");
 		Conteiner<Plant> c = new Conteiner<Plant>();
 		Plant plant1=new Flouwer(5,"Фуксия",2,"красный");
 		Plant plant2=new Flouwer(3,"Василек",8,"желтый");
